@@ -1,0 +1,46 @@
+.title {
+    font-size: 80px;
+    line-height: 1.45;
+    border-bottom: 2px solid $color-black;
+}
+  
+.subTitle {
+    font-size: 32px;
+    line-height: 45px;
+    border-bottom: 1px solid $color-black;
+}
+  
+.subTitle span {
+    margin-left: 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    color: $color-darkRed;
+    padding-bottom: 8px;
+}
+  
+.skills .whiteTitle {
+    margin-bottom: 37px;
+}
+  
+.whiteTitle {
+    color: $color-white;
+    border-bottom-color: $color-white;
+    text-align: center;
+}
+  
+.whiteTitle span {
+    color: $color-white;
+}
+  
+.contact a {
+    color: $color-white;
+    text-decoration: none;
+}
+  
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.contact a img:hover {
+    background-color: $color-grayBlue;
+}

@@ -1,0 +1,45 @@
+body {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.darkBlue {
+  background-color: $color-darkBlue;
+  color: $color-white;
+  padding-bottom: 36px;
+}
+
+.skills {
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skills-list {
+  width: 230px;
+  margin: 0 auto;
+  border-left: 1px solid $color-grayBlue;
+}
+
+.work-list {
+  border-left: 1px solid $color-grayBlue;
+}
+
+.contact {
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* 變更元素 */
+
+.block {
+  display: block;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
