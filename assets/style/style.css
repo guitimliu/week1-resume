@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* font color */
+body {
+  font-size: 24px;
+  line-height: 1.5; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.darkBlue {
+  background-color: #415165;
+  color: #FFFFFF;
+  padding-bottom: 36px; }
+
+.skills {
+  width: 996px;
+  margin: 0 auto; }
+
+.skills-list {
+  width: 230px;
+  margin: 0 auto;
+  border-left: 1px solid #96A9C4; }
+
+.work-list {
+  border-left: 1px solid #96A9C4; }
+
+.contact {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+/* 變更元素 */
+.block {
+  display: block; }
+
+.vertical-align-middle {
+  vertical-align: middle; }
+
+.title {
+  font-size: 80px;
+  line-height: 1.45;
+  border-bottom: 2px solid #000; }
+
+.subTitle {
+  font-size: 32px;
+  line-height: 45px;
+  border-bottom: 1px solid #000; }
+
+.subTitle span {
+  margin-left: 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #A00404;
+  padding-bottom: 8px; }
+
+.skills .whiteTitle {
+  margin-bottom: 37px; }
+
+.whiteTitle {
+  color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  text-align: center; }
+
+.whiteTitle span {
+  color: #FFFFFF; }
+
+.contact a {
+  color: #FFFFFF;
+  text-decoration: none; }
+
+.contact a:hover {
+  text-decoration: underline; }
+
+.contact a img:hover {
+  background-color: #96A9C4; }
+
+/* padding-top */
+.pt-3 {
+  padding-top: 24px; }
+
+/* padding-bottom */
+.pb-1 {
+  padding-bottom: 8px; }
+
+/* padding-left */
+.pl-3 {
+  padding-left: 24px; }
+
+/* margin-bottom  */
+.mb-0 {
+  margin-bottom: 0; }
+
+.mb-1 {
+  margin-bottom: 8px; }
+
+.mb-2 {
+  margin-bottom: 16px; }
+
+.mb-3 {
+  margin-bottom: 24px; }
+
+.mb-4 {
+  margin-bottom: 32px; }
+
+.mb-5 {
+  margin-bottom: 40px; }
+
+.mb-6 {
+  margin-bottom: 48px; }
+
+.mb-7 {
+  margin-bottom: 56px; }
+
+.mb-9 {
+  margin-bottom: 72px; }
+
+/*# sourceMappingURL=style.css.map */
