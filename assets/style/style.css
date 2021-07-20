@@ -73,10 +73,7 @@ body {
   border-left: 1px solid #96A9C4; }
 
 .contact {
-  text-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1; }
+  text-align: center; }
 
 /* 變更元素 */
 .block {
